@@ -661,6 +661,8 @@ header nav .toggle {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 30px;
+  flex-direction: column;
+  text-align: center;
 }
 .skills .container div .box .block img {
   width: 30%;
@@ -674,7 +676,7 @@ header nav .toggle {
   }
 }
 .skills .container div .box .block .text {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #ccc;
   flex-basis: 60%;
 }
 @media (max-width: 767px) {
