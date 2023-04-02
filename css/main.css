@@ -661,8 +661,6 @@ header nav .toggle {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 30px;
-  flex-direction: column;
-  text-align: center;
 }
 @media (max-width: 767px) {
   .skills .container div .box .block {
