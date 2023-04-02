@@ -438,6 +438,7 @@ header nav .toggle {
   border: 1px solid #eee;
   border-radius: 3%;
   transition: 0.3s;
+  color: black;
 }
 .portfolio .items ul button.activ {
   background-color: var(--main-color);
@@ -511,6 +512,8 @@ header nav .toggle {
 .video {
   position: relative;
   overflow: hidden;
+  padding-top: var(--padding-section);
+  padding-bottom: var(--padding-section);
 }
 .video .blue-bg {
   width: 100%;
@@ -547,8 +550,8 @@ header nav .toggle {
 /* end video  */
 /* start about-us */
 .about {
-  padding-top: var(--padding-section);
-  padding-bottom: var(--padding-section);
+  padding-top: calc(var(--padding-section) / 2);
+  padding-bottom: calc(var(--padding-section) / 2);
 }
 .about .heading {
   margin-bottom: 0;
