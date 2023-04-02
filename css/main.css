@@ -664,6 +664,12 @@ header nav .toggle {
   flex-direction: column;
   text-align: center;
 }
+@media (max-width: 767px) {
+  .skills .container div .box .block {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 .skills .container div .box .block img {
   width: 30%;
   background-color: #f2f2f2;
